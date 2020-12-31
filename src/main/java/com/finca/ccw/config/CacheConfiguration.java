@@ -47,6 +47,7 @@ public class CacheConfiguration {
             createCache(cm, com.finca.ccw.domain.User.class.getName());
             createCache(cm, com.finca.ccw.domain.Authority.class.getName());
             createCache(cm, com.finca.ccw.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.finca.ccw.domain.CollectionTracking.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
